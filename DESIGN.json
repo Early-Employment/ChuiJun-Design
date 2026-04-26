@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-04-25T06:22:01Z",
+  "title": "Design System: 광주소프트웨어마이스터고 코딩테스트 플랫폼",
+  "extensions": {
+    "colorMeta": {
+      "primary-teal": {
+        "role": "primary",
+        "displayName": "Clear Teal",
+        "canonical": "oklch(0.748 0.124 196.1)",
+        "tonalRamp": [
+          "oklch(0.18 0.050 196.1)",
+          "oklch(0.28 0.080 196.1)",
+          "oklch(0.40 0.110 196.1)",
+          "oklch(0.55 0.124 196.1)",
+          "oklch(0.70 0.124 196.1)",
+          "oklch(0.82 0.095 196.1)",
+          "oklch(0.90 0.055 196.1)",
+          "oklch(0.96 0.025 196.1)"
+        ],
+        "description": "주요 행동, 현재 학습 흐름, 활성 탭, 중요한 진행 상태에 사용한다."
+      },
+      "teal-mist": {
+        "role": "primary-support",
+        "displayName": "Teal Mist",
+        "canonical": "oklch(0.858 0.074 196.9)",
+        "tonalRamp": [
+          "oklch(0.18 0.035 196.9)",
+          "oklch(0.30 0.050 196.9)",
+          "oklch(0.44 0.065 196.9)",
+          "oklch(0.58 0.074 196.9)",
+          "oklch(0.72 0.074 196.9)",
+          "oklch(0.84 0.064 196.9)",
+          "oklch(0.91 0.040 196.9)",
+          "oklch(0.97 0.018 196.9)"
+        ],
+        "description": "선택된 필터, 약한 배경 강조, 그래프 보조 영역에 사용한다."
+      },
+      "study-cream": {
+        "role": "secondary",
+        "displayName": "Study Cream",
+        "canonical": "oklch(0.944 0.057 83.5)",
+        "tonalRamp": [
+          "oklch(0.20 0.030 83.5)",
+          "oklch(0.32 0.045 83.5)",
+          "oklch(0.46 0.057 83.5)",
+          "oklch(0.62 0.057 83.5)",
+          "oklch(0.76 0.052 83.5)",
+          "oklch(0.88 0.045 83.5)",
+          "oklch(0.94 0.035 83.5)",
+          "oklch(0.98 0.018 83.5)"
+        ],
+        "description": "과제 묶음, 예정된 활동, 부담 없는 안내 영역의 배경으로 사용한다."
+      },
+      "progress-amber": {
+        "role": "secondary",
+        "displayName": "Progress Amber",
+        "canonical": "oklch(0.862 0.104 68.5)",
+        "tonalRamp": [
+          "oklch(0.20 0.045 68.5)",
+          "oklch(0.32 0.070 68.5)",
+          "oklch(0.46 0.095 68.5)",
+          "oklch(0.60 0.104 68.5)",
+          "oklch(0.74 0.104 68.5)",
+          "oklch(0.86 0.085 68.5)",
+          "oklch(0.92 0.050 68.5)",
+          "oklch(0.97 0.022 68.5)"
+        ],
+        "description": "마감 임박, 복습 필요, 풀이 중단 지점처럼 주의가 필요하지만 오류는 아닌 상태에 사용한다."
+      },
+      "growth-green": {
+        "role": "tertiary",
+        "displayName": "Growth Green",
+        "canonical": "oklch(0.815 0.124 133.0)",
+        "tonalRamp": [
+          "oklch(0.19 0.045 133.0)",
+          "oklch(0.30 0.075 133.0)",
+          "oklch(0.44 0.105 133.0)",
+          "oklch(0.58 0.124 133.0)",
+          "oklch(0.72 0.124 133.0)",
+          "oklch(0.84 0.095 133.0)",
+          "oklch(0.91 0.055 133.0)",
+          "oklch(0.97 0.024 133.0)"
+        ],
+        "description": "성장률, 회복된 약점, 연속 풀이, 목표 달성에 사용한다."
+      },
+      "surface-tint": {
+        "role": "neutral",
+        "displayName": "Surface Tint",
+        "canonical": "oklch(0.991 0.005 178)",
+        "tonalRamp": [
+          "oklch(0.20 0.005 178)",
+          "oklch(0.32 0.005 178)",
+          "oklch(0.46 0.005 178)",
+          "oklch(0.60 0.005 178)",
+          "oklch(0.74 0.005 178)",
+          "oklch(0.86 0.005 178)",
+          "oklch(0.93 0.005 178)",
+          "oklch(0.99 0.005 178)"
+        ],
+        "description": "기본 앱 배경이다."
+      },
+      "surface-soft": {
+        "role": "neutral",
+        "displayName": "Surface Soft",
+        "canonical": "oklch(0.967 0.012 178)",
+        "tonalRamp": [
+          "oklch(0.20 0.008 178)",
+          "oklch(0.32 0.010 178)",
+          "oklch(0.46 0.012 178)",
+          "oklch(0.60 0.012 178)",
+          "oklch(0.74 0.012 178)",
+          "oklch(0.86 0.012 178)",
+          "oklch(0.93 0.010 178)",
+          "oklch(0.98 0.006 178)"
+        ],
+        "description": "테이블 헤더, 필터 영역, 보조 패널처럼 낮은 층위를 구분할 때 사용한다."
+      },
+      "border-soft": {
+        "role": "neutral",
+        "displayName": "Border Soft",
+        "canonical": "oklch(0.900 0.020 178)",
+        "tonalRamp": [
+          "oklch(0.20 0.010 178)",
+          "oklch(0.32 0.014 178)",
+          "oklch(0.46 0.018 178)",
+          "oklch(0.60 0.020 178)",
+          "oklch(0.74 0.020 178)",
+          "oklch(0.86 0.018 178)",
+          "oklch(0.92 0.012 178)",
+          "oklch(0.98 0.006 178)"
+        ],
+        "description": "카드, 입력 필드, 구분선에 쓰는 기본 경계색이다."
+      },
+      "text-strong": {
+        "role": "neutral",
+        "displayName": "Text Strong",
+        "canonical": "oklch(0.300 0.025 178)",
+        "tonalRamp": [
+          "oklch(0.16 0.018 178)",
+          "oklch(0.24 0.022 178)",
+          "oklch(0.30 0.025 178)",
+          "oklch(0.42 0.024 178)",
+          "oklch(0.56 0.020 178)",
+          "oklch(0.70 0.016 178)",
+          "oklch(0.84 0.010 178)",
+          "oklch(0.96 0.005 178)"
+        ],
+        "description": "제목, 본문 핵심 텍스트, 주요 수치에 사용한다."
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Text Muted",
+        "canonical": "oklch(0.520 0.025 178)",
+        "tonalRamp": [
+          "oklch(0.18 0.018 178)",
+          "oklch(0.30 0.022 178)",
+          "oklch(0.42 0.025 178)",
+          "oklch(0.52 0.025 178)",
+          "oklch(0.64 0.022 178)",
+          "oklch(0.76 0.016 178)",
+          "oklch(0.88 0.010 178)",
+          "oklch(0.96 0.005 178)"
+        ],
+        "description": "보조 설명, 메타 정보, 시간 정보에 사용한다."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "제품 소개, 온보딩, 학습 요약의 가장 큰 메시지에만 사용한다."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "대시보드 주요 섹션 제목과 오늘의 학습 요약에 사용한다."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "과제 카드, 문제 세트, 분석 패널 제목에 사용한다."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "설명, 피드, 안내 문구에 사용한다."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "버튼, 칩, 테이블 헤더, 상태 라벨에 사용한다."
+      }
+    },
+    "shadows": [
+      {
+        "name": "resting-surface",
+        "value": "none",
+        "purpose": "기본 카드, 문제 목록, 과제 묶음에 사용한다."
+      },
+      {
+        "name": "interactive-lift",
+        "value": "0 8px 24px rgba(32, 51, 50, 0.10)",
+        "purpose": "클릭 가능한 카드나 드롭다운이 hover 또는 open 상태일 때만 사용한다."
+      },
+      {
+        "name": "focus-ring",
+        "value": "0 0 0 3px rgba(24, 197, 199, 0.28)",
+        "purpose": "키보드 포커스와 입력 활성 상태에 사용한다."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-quart",
+        "value": "cubic-bezier(0.25, 1, 0.5, 1)",
+        "purpose": "버튼, 칩, 카드 hover 상태 변화에 사용한다."
+      },
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "패널 진입, 피드 업데이트, 중요한 상태 변화에 사용한다."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "주요 학습 행동과 제출 행동에 쓰는 가장 강한 버튼.",
+      "html": "<button class=\"ds-btn-primary\">오늘 문제 풀기</button>",
+      "css": ".ds-btn-primary { appearance: none; border: 1px solid #18C5C7; background: #18C5C7; color: #203332; border-radius: 8px; padding: 12px 18px; font-family: Pretendard, Inter, system-ui, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0; line-height: 1.3; cursor: pointer; transition: transform 160ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 160ms cubic-bezier(0.25, 1, 0.5, 1), background 160ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-btn-primary:hover { background: #95E0E1; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(32, 51, 50, 0.10); } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(24, 197, 199, 0.28); } .ds-btn-primary:active { transform: translateY(0); box-shadow: none; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "필터 초기화, 복습 보기, 보조 이동에 쓰는 따뜻한 버튼.",
+      "html": "<button class=\"ds-btn-secondary\">복습 문제 보기</button>",
+      "css": ".ds-btn-secondary { appearance: none; border: 1px solid #FFEAC2; background: #FFEAC2; color: #203332; border-radius: 8px; padding: 12px 18px; font-family: Pretendard, Inter, system-ui, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0; line-height: 1.3; cursor: pointer; transition: border-color 160ms cubic-bezier(0.25, 1, 0.5, 1), transform 160ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 160ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-btn-secondary:hover { border-color: #FFC585; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(32, 51, 50, 0.10); } .ds-btn-secondary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(24, 197, 199, 0.28); } .ds-btn-secondary:active { transform: translateY(0); box-shadow: none; }"
+    },
+    {
+      "name": "Progress Chip",
+      "kind": "chip",
+      "refersTo": "chip-progress",
+      "description": "문제 유형, 제출 상태, 성장 상태를 짧게 표시하는 칩.",
+      "html": "<span class=\"ds-chip-progress\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M3 8.4 6.4 12 13 4.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>연속 풀이 5일</span>",
+      "css": ".ds-chip-progress { display: inline-flex; align-items: center; gap: 6px; width: fit-content; border: 1px solid #D7E3E2; background: #F2F7F6; color: #203332; border-radius: 4px; padding: 6px 10px; font-family: Pretendard, Inter, system-ui, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0; line-height: 1.3; } .ds-chip-progress svg { width: 16px; height: 16px; color: #18C5C7; flex: 0 0 auto; } .ds-chip-progress:hover { border-color: #18C5C7; background: #95E0E1; } .ds-chip-progress:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(24, 197, 199, 0.28); }"
+    },
+    {
+      "name": "Learning Card",
+      "kind": "card",
+      "refersTo": "card-learning",
+      "description": "오늘의 과제나 이어 풀 문제처럼 하나의 다음 행동을 담는 카드.",
+      "html": "<article class=\"ds-learning-card\"><p class=\"ds-card-kicker\">오늘의 다음 문제</p><h3>그래프 탐색 3문제</h3><p>BFS 기본기를 확인하고, 어제 막힌 유형을 다시 회복합니다.</p><div class=\"ds-card-meta\"><span>마감 18:00</span><span>예상 35분</span></div></article>",
+      "css": ".ds-learning-card { max-width: 360px; border: 1px solid #D7E3E2; background: #FAFCFB; color: #203332; border-radius: 8px; padding: 20px; font-family: Pretendard, Inter, system-ui, sans-serif; transition: transform 180ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 180ms cubic-bezier(0.25, 1, 0.5, 1), border-color 180ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-learning-card:hover { border-color: #18C5C7; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(32, 51, 50, 0.10); } .ds-learning-card h3 { margin: 0 0 8px; color: #203332; font-size: 20px; line-height: 1.25; font-weight: 750; letter-spacing: 0; } .ds-learning-card p { margin: 0; color: #5A6F6D; font-size: 15px; line-height: 1.55; letter-spacing: 0; } .ds-card-kicker { margin-bottom: 8px !important; color: #18C5C7 !important; font-size: 13px !important; font-weight: 800 !important; line-height: 1.2 !important; } .ds-card-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; } .ds-card-meta span { border-radius: 4px; background: #F2F7F6; color: #203332; padding: 6px 8px; font-size: 13px; font-weight: 700; line-height: 1.2; }"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "문제집과 과제 목록에서 빠르게 찾기 위한 입력 필드.",
+      "html": "<label class=\"ds-search\"><span>문제 검색</span><input type=\"search\" placeholder=\"BFS, 문자열, 난이도\" /></label>",
+      "css": ".ds-search { display: grid; gap: 6px; max-width: 360px; color: #203332; font-family: Pretendard, Inter, system-ui, sans-serif; } .ds-search span { color: #5A6F6D; font-size: 13px; font-weight: 700; line-height: 1.2; } .ds-search input { border: 1px solid #D7E3E2; background: #FAFCFB; color: #203332; border-radius: 8px; padding: 12px 14px; font-family: inherit; font-size: 15px; line-height: 1.4; letter-spacing: 0; transition: border-color 160ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 160ms cubic-bezier(0.25, 1, 0.5, 1), background 160ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-search input::placeholder { color: #5A6F6D; opacity: 0.78; } .ds-search input:focus { outline: none; border-color: #18C5C7; box-shadow: 0 0 0 3px rgba(24, 197, 199, 0.28); background: #FAFCFB; }"
+    },
+    {
+      "name": "Student Navigation",
+      "kind": "nav",
+      "refersTo": "nav-student",
+      "description": "학생의 핵심 흐름을 좁고 선명하게 묶는 상단 내비게이션.",
+      "html": "<nav class=\"ds-student-nav\" aria-label=\"학생 메뉴\"><a class=\"is-active\" href=\"#\">오늘의 학습</a><a href=\"#\">문제집</a><a href=\"#\">친구 활동</a><a href=\"#\">랭킹</a><a href=\"#\">성장 분석</a></nav>",
+      "css": ".ds-student-nav { display: flex; flex-wrap: wrap; gap: 6px; width: fit-content; border: 1px solid #D7E3E2; background: #F2F7F6; border-radius: 8px; padding: 6px; font-family: Pretendard, Inter, system-ui, sans-serif; } .ds-student-nav a { color: #5A6F6D; text-decoration: none; border-radius: 4px; padding: 9px 12px; font-size: 14px; font-weight: 700; line-height: 1.2; letter-spacing: 0; transition: color 160ms cubic-bezier(0.25, 1, 0.5, 1), background 160ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-student-nav a:hover { color: #203332; background: #FAFCFB; } .ds-student-nav a:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(24, 197, 199, 0.28); } .ds-student-nav a.is-active { color: #203332; background: #95E0E1; }"
+    },
+    {
+      "name": "Growth Metric",
+      "kind": "custom",
+      "refersTo": "metric-growth",
+      "description": "순위보다 성장 이유를 먼저 보여주는 학생용 성과 지표.",
+      "html": "<section class=\"ds-growth-metric\"><span class=\"ds-metric-label\">이번 주 성장률</span><strong>+18%</strong><p>DP 약점 2개를 회복했고, 연속 풀이가 5일로 늘었습니다.</p></section>",
+      "css": ".ds-growth-metric { max-width: 320px; border: 1px solid #D7E3E2; background: #FAFCFB; color: #203332; border-radius: 8px; padding: 20px; font-family: Pretendard, Inter, system-ui, sans-serif; } .ds-metric-label { display: inline-flex; width: fit-content; border-radius: 4px; background: #A3D47F; color: #203332; padding: 6px 8px; font-size: 13px; font-weight: 800; line-height: 1.2; } .ds-growth-metric strong { display: block; margin-top: 12px; color: #203332; font-size: 40px; font-weight: 800; line-height: 1.05; letter-spacing: 0; } .ds-growth-metric p { margin: 10px 0 0; color: #5A6F6D; font-size: 15px; line-height: 1.55; letter-spacing: 0; }"
+    },
+    {
+      "name": "Submission Row",
+      "kind": "custom",
+      "refersTo": "row-submission",
+      "description": "교사용 제출 현황에서 학생 상태를 색상과 텍스트로 함께 보여주는 행.",
+      "html": "<div class=\"ds-submission-row\"><span class=\"ds-student\">김민준</span><span class=\"ds-status\">재제출 필요</span><span class=\"ds-note\">문자열 2번 오답 반복</span></div>",
+      "css": ".ds-submission-row { display: grid; grid-template-columns: minmax(96px, 1fr) auto minmax(160px, 1.4fr); gap: 12px; align-items: center; max-width: 560px; border: 1px solid #D7E3E2; background: #FAFCFB; color: #203332; border-radius: 8px; padding: 12px 14px; font-family: Pretendard, Inter, system-ui, sans-serif; } .ds-student { font-size: 15px; font-weight: 750; line-height: 1.3; } .ds-status { width: fit-content; border: 1px solid #FFC585; background: #FFEAC2; color: #203332; border-radius: 4px; padding: 6px 8px; font-size: 13px; font-weight: 800; line-height: 1.2; } .ds-note { color: #5A6F6D; font-size: 14px; font-weight: 600; line-height: 1.35; } @media (max-width: 520px) { .ds-submission-row { grid-template-columns: 1fr; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "성장 보드",
+    "overview": "이 시스템은 광주소프트웨어마이스터고 학생이 방과 후 교실이나 집에서 노트북으로 문제를 풀고, 오늘의 진도와 다음 행동을 확인하는 장면에서 출발한다. 화면은 밝고 선명해야 하며, 학습이 쌓이고 있다는 감각을 즉시 줘야 한다. 기본 테마는 라이트다. 긴 풀이 시간에도 눈이 피곤하지 않아야 하고, 친구 활동과 성장 지표는 활기를 주되 산만해지면 안 된다.\n\n디자인은 문제은행보다 학습 운영 앱에 가깝다. 첫 화면은 많은 문제를 나열하기보다 오늘의 과제, 이어 풀 문제, 약점 회복, 친구 활동을 스캔 가능한 구조로 보여준다. 교사용 화면도 같은 언어를 공유하되, 학생 경험보다 더 높은 정보 밀도와 빠른 필터링을 우선한다.",
+    "keyCharacteristics": [
+      "밝은 표면, 명확한 상태, 짧은 행동 문구",
+      "성장률, 연속 풀이, 취약 유형 회복을 강조하는 학습 피드백",
+      "청록을 중심으로 한 활기 있는 색상, 따뜻한 보조색으로 과제와 성취 구분",
+      "반복 사용 화면에서는 장식보다 스캔성, 밀도, 접근성 우선"
+    ],
+    "rules": [
+      {
+        "name": "The Growth Color Rule",
+        "body": "초록은 성공을 과장하는 색이 아니라 실제 성장, 회복, 목표 달성에만 쓴다.",
+        "section": "colors"
+      },
+      {
+        "name": "The No Panic Rule",
+        "body": "오답과 지각 상태는 빨간색에 의존하지 않는다. 텍스트, 아이콘, 정렬, 패턴을 함께 써서 낙인처럼 보이지 않게 한다.",
+        "section": "colors"
+      },
+      {
+        "name": "The Short Sentence Rule",
+        "body": "학생에게 보여주는 문장은 한 번에 하나의 행동만 말한다.",
+        "section": "typography"
+      },
+      {
+        "name": "The Number With Meaning Rule",
+        "body": "큰 숫자는 성장, 제출, 풀이 시간처럼 행동과 연결될 때만 크게 보여준다.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Until Active Rule",
+        "body": "표면은 기본적으로 평평하다. 사용자가 선택하거나 열었을 때만 깊이를 얻는다.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "오늘 이어 풀 문제, 남은 과제, 회복할 약점을 첫 화면에서 바로 보이게 한다.",
+      "친구 활동은 작고 빠르게 스캔되는 피드로 제공한다.",
+      "성장 지표에는 전주 대비, 연속 풀이, 취약 유형 회복처럼 학생이 행동으로 이해할 수 있는 설명을 붙인다.",
+      "교사용 화면은 학생용보다 정보 밀도를 높이되, 같은 상태 언어와 색상 규칙을 유지한다.",
+      "`prefers-reduced-motion`을 존중하고, 애니메이션은 상태 변화 이해를 돕는 경우에만 사용한다."
+    ],
+    "donts": [
+      "백준을 그대로 복제한 문제은행 중심 UI로 만들지 않는다.",
+      "순위와 점수만 강조해 상위권 학생만 돋보이게 하지 않는다.",
+      "학교 행정 시스템처럼 딱딱하고 느린 관리 화면으로 만들지 않는다.",
+      "배지, 레벨, 효과음을 과하게 앞세우는 게임화에 의존하지 않는다.",
+      "같은 크기의 아이콘 카드 그리드를 반복해 기능을 나열하지 않는다.",
+      "색상만으로 정답, 오답, 지각 제출, 취약 유형을 구분하지 않는다.",
+      "여러 학교에 판매하는 범용 SaaS 도입 문의 페이지처럼 만들지 않는다."
+    ]
+  }
+}
